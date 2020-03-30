@@ -1,5 +1,7 @@
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import getCSSModuleLocalIdent from 'react-dev-utils/getCSSModuleLocalIdent';
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 const generateSourceMap = process.env.OMIT_SOURCEMAP === 'true' ? false : true;
 
 const cssRegex = /\.css$/;

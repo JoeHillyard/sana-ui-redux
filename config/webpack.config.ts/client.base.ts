@@ -5,6 +5,7 @@ import resolvers from './resolvers';
 import plugins from './plugins';
 // const { client: clientLoaders } = require('./loaders');
 import { client as clientLoaders } from './loaders';
+
 const generateSourceMap = process.env.OMIT_SOURCEMAP === 'true' ? false : true;
 
 export default {

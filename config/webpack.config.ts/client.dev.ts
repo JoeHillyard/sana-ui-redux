@@ -1,6 +1,7 @@
 import webpack from 'webpack';
 import WriteFileWebpackPlugin from 'write-file-webpack-plugin';
 import baseConfig from './client.base';
+
 const generateSourceMap = process.env.OMIT_SOURCEMAP === 'true' ? false : true;
 
 const config = {
